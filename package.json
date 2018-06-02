@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "bootstrap-css-only": "^4.1.0",
+    "firebase": "^5.0.4",
+    "re-base": "^3.2.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "rebase": "^0.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
