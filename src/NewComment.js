@@ -7,11 +7,11 @@ class NewComment extends Component {
     this.handleEnter = this.handleEnter.bind(this);
   }
   handleEnter(event) {
-    if (event.keyCode == 13) {
+    if (event.keyCode === 13) {
       this.props.postNewComment({
         comment: this.refs.comment.value
       });
-      this.refs.comment.value = '';
+      this.refs.comment.value = "";
       event.preventDefault();
     }
     console.log(event.keyCode);
