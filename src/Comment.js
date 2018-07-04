@@ -5,7 +5,13 @@ import React from "react";
 const Comment = props => {
   return (
     <div className="card">
-      <p className="card-body">{props.comment.comment}</p>
+      <p className="card-body">
+        {props.comment.comment}
+        <br />
+        <small>
+          <b>por: {props.comment.user.name}</b>
+        </small>
+      </p>
     </div>
   );
 };
